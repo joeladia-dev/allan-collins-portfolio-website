@@ -214,3 +214,9 @@ Jobs
 }
 .center-btn {
 }
+
+@media screen and (max-width: 480px) {
+  .section {
+    /* display: none; */
+  }
+}

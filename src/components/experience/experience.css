@@ -36,20 +36,6 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
-  .pl {
-    padding: 10px;
-  }
-
-  .pl-texts {
-    width: 100%;
-  }
-
-  .pl-desc {
-    display: none;
-  }
-}
-
 .pl-img-div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -66,4 +52,18 @@
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 480px) {
+  .pl {
+    display: none;
+  }
+
+  .pl-texts {
+    width: 100%;
+  }
+
+  .pl-desc {
+    display: none;
+  }
 }

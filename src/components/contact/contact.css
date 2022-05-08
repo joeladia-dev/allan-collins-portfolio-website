@@ -106,7 +106,7 @@ button {
 @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;
-    padding: 0px 50px;
+    padding: 0px 30px;
   }
 
   .c-title {
@@ -119,6 +119,10 @@ button {
   }
 
   .c-desc {
+    display: none;
+  }
+
+  .footer {
     display: none;
   }
 

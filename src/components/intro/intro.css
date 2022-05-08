@@ -94,6 +94,12 @@
   .i {
     flex-direction: column;
   }
+  .i-title {
+    height: 40px;
+  }
+  .i-title-item {
+    font-size: 20px;
+  }
 
   .i-left-wrapper {
     padding: 10px;
@@ -105,5 +111,9 @@
 
   .i-desc {
     display: none;
+  }
+
+  .i-name {
+    font-size: 30px;
   }
 }
